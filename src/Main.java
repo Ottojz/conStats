@@ -2,7 +2,7 @@ import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) {
-/*
+
         //task 1
         System.out.println("task 1");
 
@@ -47,7 +47,7 @@ public class Main {
         if (age >= 7 && age <= 17){
             System.out.println("Нужно ходить в школу");
         }
-        if (age >= 18 && age <= 24){
+        if (age >= 18 && age < 24){
             System.out.println("Нужно ходить в университет");
         }
         if (age >= 24){
@@ -59,7 +59,7 @@ public class Main {
 Поэтому не понимаю, как ее здесь применить.
 Посмотрел разбор домашки, ответа на этот вопрос тоже не нашел, хотя я не один столкнулся с этой проблемой.
 Как и в разборе домашки, не стал использовать else востальных заданиях, так как там больше одного оператора if
-/
+*/
 
         //task 5
         System.out.println("task 5");
@@ -98,12 +98,12 @@ public class Main {
         //task 6 alternative (Через 2 переменные, если пассажиры не всегда сразу занимают сидячие места)
         System.out.println("task 6 alternative");
 
-        standingPassengers = 40;
-        sittingPassangers = -62;
+        byte standingPassengers = 40;
+        byte sittingPassangers = -62;
 
         wholeCapacity = 102;
         sittingCapacity = 60;
-        standingCapacity = (byte) (wholeCapacity - sittingCapacity);
+        byte standingCapacity = (byte) (wholeCapacity - sittingCapacity);
         if (standingPassengers > standingCapacity || standingPassengers < 0) {
             System.out.println("Неверный диапазон стоячих мест");
         }
@@ -122,7 +122,7 @@ public class Main {
         if (sittingPassangers == sittingCapacity) {
             System.out.println("В вагоне нет сидячих мест");
         }
-*/
+
         //task 7
         System.out.println("task 7");
 
